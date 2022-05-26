@@ -11,11 +11,18 @@ terraform {
   }
   required_version = "~> 1.0"
 
+  # cloud {
+  #     organization = "rserge"
+  #     workspaces {
+  #       name = "Api-demo"
+  #     }
+  #   }
+
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "rserge"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "Api-demo"
     }
   }
 }
