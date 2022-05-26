@@ -25,7 +25,7 @@ terraform {
     organization = "rserge"
 
 
-      workspaces {
+    workspaces {
       name = "Api-demo"
     }
   }
